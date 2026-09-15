@@ -1,0 +1,8 @@
+[Flatpak Repo]
+Title=mori
+Url=https://get.motemd.com/flatpak
+Homepage=https://motemd.com
+Comment=mori — a native live Markdown editor
+Description=mori's own Flatpak repository. Branches: stable (releases) and beta.
+Icon=https://motemd.com/icon.svg
+GPGKey=mDMEap0giRYJKwYBBAHaRw8BAQdAslQN1GAeWK9O0p5eCNDYXZWhVjKDOSd3ukGgTr5pOHO0K21vdGUgcmVsZWFzZSBzaWduaW5nIDxiZWVuZWUxMTM4QGdtYWlsLmNvbT6ImQQTFgoAQRYhBC4lnvKzaQ7OCz9W2WZYkxLLhEdfBQJqnSCJAhsDBQkDwmcABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEGZYkxLLhEdfFjcBAIS7n4A00BgTIILLjPCoS6ERqg399zTQqcpyYUYHo5oDAP9sTMtji4bCEKXjPa3RCNf+RWAFcl2JJv23ITaunkerBw==

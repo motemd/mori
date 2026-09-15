@@ -1,3 +1,46 @@
+Package: mori
+Architecture: amd64
+Version: 1.0.2
+Priority: optional
+Section: editors
+Maintainer: mori <support@motemd.com>
+Installed-Size: 121524
+Depends: libc6 (>= 2.35), fontconfig-config, libegl1, libexpat1, libfreetype6, libgcc-s1, libgl1, libstdc++6, libx11-6, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, zlib1g
+Recommends: fonts-noto-cjk, ibus-hangul, shared-mime-info, xdg-utils
+Breaks: mote (<< 1.0.2-2)
+Replaces: mote (<< 1.0.2-2)
+Filename: pool/stable/m/mori/mori_1.0.2_amd64.deb
+Size: 34793428
+MD5sum: 2f793c0dff3cf374a1c125d235f4111e
+SHA1: bc5db02fc68b53991153d47cc891a52c93ff5b2e
+SHA256: 74405a249465271d3dfbeb21ca94893144da00287b7ce73c706e39d0f3c0fe2c
+SHA512: 4db7f893c57dce22c8658945e3d7dfb5985cbdc71f96d8e6d2596933dd3d6393fec6a7a17284048eef5625e9dd6d521b2d9f006c36225659bda7d38c3a1f8196
+Homepage: https://motemd.com
+Description: Native live Markdown editor
+ Typora-class inline editing without a web engine. Nothing runs while idle,
+ typing uses a fraction of one core, and the file is saved exactly as typed.
+ Ships its own GTK 4 / libadwaita under /opt/mori, so it behaves the same on
+ every distribution (Ubuntu 22.04+, Debian 12+).
+
+Package: mote
+Architecture: all
+Version: 1.0.2-2
+Priority: optional
+Section: oldlibs
+Maintainer: mori <support@motemd.com>
+Installed-Size: 0
+Depends: mori (>= 1.0.2)
+Filename: pool/stable/m/mori/mote_1.0.2-2_all.deb
+Size: 804
+MD5sum: 879b21747dc56e89f6605528e5ff3b26
+SHA1: a7a6c8499de0a73911ed546967a7703b756f2aef
+SHA256: e1e4aad418f4b94e679f0766b4c8cc237395ae7abc7fe470018f4ac62c88592c
+SHA512: a886be0826ed898011b09b33101664c4a5ecc6065f562eb988729cd894494b5b4d32567fef790cf771abacf3788054cb80ccb8cc8855b6e6c79185be58cf8538
+Homepage: https://motemd.com
+Description: transitional package — mote is now mori
+ mote was renamed mori. This empty package pulls in  and can be removed
+ once it is installed.
+
 Package: mote
 Architecture: amd64
 Version: 1.0.0

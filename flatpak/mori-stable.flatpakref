@@ -1,0 +1,12 @@
+[Flatpak Ref]
+Name=com.motemd.Mori
+Branch=stable
+Title=mori (stable)
+Url=https://get.motemd.com/flatpak
+SuggestRemoteName=motemd
+Homepage=https://motemd.com
+Comment=mori — a native live Markdown editor
+Description=Installs mori from motemd.com's Flatpak repository; the GNOME runtime comes from Flathub.
+IsRuntime=false
+RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
+GPGKey=mDMEap0giRYJKwYBBAHaRw8BAQdAslQN1GAeWK9O0p5eCNDYXZWhVjKDOSd3ukGgTr5pOHO0K21vdGUgcmVsZWFzZSBzaWduaW5nIDxiZWVuZWUxMTM4QGdtYWlsLmNvbT6ImQQTFgoAQRYhBC4lnvKzaQ7OCz9W2WZYkxLLhEdfBQJqnSCJAhsDBQkDwmcABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEGZYkxLLhEdfFjcBAIS7n4A00BgTIILLjPCoS6ERqg399zTQqcpyYUYHo5oDAP9sTMtji4bCEKXjPa3RCNf+RWAFcl2JJv23ITaunkerBw==
