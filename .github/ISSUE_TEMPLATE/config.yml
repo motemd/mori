@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Questions and ideas
-    url: https://github.com/motemd/mote/discussions
+    url: https://github.com/motemd/mori/discussions
     about: Ask, suggest, show what you made
   - name: Security
-    url: https://github.com/motemd/mote/blob/main/SECURITY.md
+    url: https://github.com/motemd/mori/blob/main/SECURITY.md
     about: Report a vulnerability privately

@@ -4,7 +4,7 @@ labels: [bug]
 body:
   - type: input
     id: version
-    attributes: { label: Version, description: "Output of `mote --version`", placeholder: "mote 0.9.0-beta.1 (prod)" }
+    attributes: { label: Version, description: "Output of `mori --version`", placeholder: "mori 1.0.2 (prod)" }
     validations: { required: true }
   - type: input
     id: system
