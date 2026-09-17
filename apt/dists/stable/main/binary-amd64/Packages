@@ -4,17 +4,17 @@ Version: 1.0.2
 Priority: optional
 Section: editors
 Maintainer: mori <support@motemd.com>
-Installed-Size: 121524
+Installed-Size: 121536
 Depends: libc6 (>= 2.35), fontconfig-config, libegl1, libexpat1, libfreetype6, libgcc-s1, libgl1, libstdc++6, libx11-6, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, zlib1g
 Recommends: fonts-noto-cjk, ibus-hangul, shared-mime-info, xdg-utils
 Breaks: mote (<< 1.0.2-2)
 Replaces: mote (<< 1.0.2-2)
 Filename: pool/stable/m/mori/mori_1.0.2_amd64.deb
-Size: 34784712
-MD5sum: 5f3390334cd74758c88da40e542df9a2
-SHA1: 56e7db13f0b6a2d47a3a92a3030f725e049b3837
-SHA256: 1dbbe36521cc894bb08516f839c815cffa251b10d6c7ab78f2ac86fb0d78576f
-SHA512: 9049cc0d452dd3ffa3888f3ce9faaeb1ea5c47e346998e3baf1d325536da9f53e39709f338ab3260751e7c31d7db49f53193b56befd17ef0e39ed6ed8a89ef45
+Size: 34797100
+MD5sum: e29eb4b8da57cb5d72ffd2f662a271ec
+SHA1: 43d67ee4fdf603f4e0bda989c874b8cf5633116d
+SHA256: 13901cd3e2ca88a57d3840246d5e481b474cceb9011e6b443a4810d930ea56b2
+SHA512: ea3d15daef614e76c6fbbfdc6b87c12460dc1393d0f6935037acdc659259417eef3fc29567ce8ec5dfda34c9a52884ee46aa05123c64c4d7c6a2ccc1d3c0597d
 Homepage: https://motemd.com
 Description: Native live Markdown editor
  Typora-class inline editing without a web engine. Nothing runs while idle,
@@ -32,10 +32,10 @@ Installed-Size: 0
 Depends: mori (>= 1.0.2)
 Filename: pool/stable/m/mori/mote_1.0.2-2_all.deb
 Size: 804
-MD5sum: fb50bd4f7b5a82e02e0f218a913a2a5f
-SHA1: 655656b556405411c5ff3f06a608365c16e1ed72
-SHA256: 2fc8775c100f2c07f7809d9171edd12f4afabd5543c9dc7bd27ff30d67b14188
-SHA512: d24bf9495e9f9b46793865f50052cac773089f8bd97d31754acb1cdd84b6271fdff851b3b9cfdf48362457269a442640cf4b73f3504b0b6f65dea60fb6a76afa
+MD5sum: c1643be59d3672b531decd5699ee84b8
+SHA1: 389ab1d00e30c46174dba09c4ab9fac7f16204f2
+SHA256: ecd587f66cffd020ac251a6637159e1477b2f4148fc6aa81b5524a6169a651df
+SHA512: 6a3c37f0c28be7d74e027579e1f622e5d0350cb5480fa4503adbe75243cfb65193ee76cc3192c11ad0a517306b0ffcec5a7cc6c72d2eb9726ad908094c07f5ec
 Homepage: https://motemd.com
 Description: transitional package — mote is now mori
  mote was renamed mori. This empty package pulls in  and can be removed
