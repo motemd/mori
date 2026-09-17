@@ -10,11 +10,11 @@ Recommends: fonts-noto-cjk, ibus-hangul, shared-mime-info, xdg-utils
 Breaks: mote (<< 1.0.2-2)
 Replaces: mote (<< 1.0.2-2)
 Filename: pool/stable/m/mori/mori_1.0.2_amd64.deb
-Size: 34797100
-MD5sum: e29eb4b8da57cb5d72ffd2f662a271ec
-SHA1: 43d67ee4fdf603f4e0bda989c874b8cf5633116d
-SHA256: 13901cd3e2ca88a57d3840246d5e481b474cceb9011e6b443a4810d930ea56b2
-SHA512: ea3d15daef614e76c6fbbfdc6b87c12460dc1393d0f6935037acdc659259417eef3fc29567ce8ec5dfda34c9a52884ee46aa05123c64c4d7c6a2ccc1d3c0597d
+Size: 34795452
+MD5sum: ff6ea1f0d6c87f90c0fbab316d200146
+SHA1: 6b380922c6ca62d8308487f8a7148204669b2822
+SHA256: edf5f2a8abb79c896204a8be9c96b23e03850f004bc7921e2ec9d64f6428c940
+SHA512: fa4b90bcf6e7a97b270e8f1aa300f21c3dab6b214bceabf1c1bc2768a9225881a633a9f291efa31bc9bbf44aa7a79f8b730c86815bd8df29eeb3b32793e5308f
 Homepage: https://motemd.com
 Description: Native live Markdown editor
  Typora-class inline editing without a web engine. Nothing runs while idle,
@@ -31,11 +31,11 @@ Maintainer: mori <support@motemd.com>
 Installed-Size: 0
 Depends: mori (>= 1.0.2)
 Filename: pool/stable/m/mori/mote_1.0.2-2_all.deb
-Size: 804
-MD5sum: c1643be59d3672b531decd5699ee84b8
-SHA1: 389ab1d00e30c46174dba09c4ab9fac7f16204f2
-SHA256: ecd587f66cffd020ac251a6637159e1477b2f4148fc6aa81b5524a6169a651df
-SHA512: 6a3c37f0c28be7d74e027579e1f622e5d0350cb5480fa4503adbe75243cfb65193ee76cc3192c11ad0a517306b0ffcec5a7cc6c72d2eb9726ad908094c07f5ec
+Size: 808
+MD5sum: 2a77c0fdb29332b4c9d86526248406b5
+SHA1: f5ade6155166c68fbd90035156b5427d8a6badd0
+SHA256: b6bdb19fe077ed5d5d2bfae720d5388abb1d06458a1e96ebd79a086754b217b7
+SHA512: bb72053a17b49f2c962b7b45f2de3d4ff0f3b1d08838852fac9670199a51fac518d787dd60078851acb04e3fe6a1b0395c6047f91ad11ce9b23060b6937aa0ff
 Homepage: https://motemd.com
 Description: transitional package — mote is now mori
  mote was renamed mori. This empty package pulls in  and can be removed
