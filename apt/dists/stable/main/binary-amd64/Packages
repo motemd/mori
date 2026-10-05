@@ -94,6 +94,30 @@ Description: Native live Markdown editor
  Ships its own GTK 4 / libadwaita under /opt/mori, so it behaves the same on
  every distribution (Ubuntu 22.04+, Debian 12+).
 
+Package: mori
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: editors
+Maintainer: mori <support@motemd.com>
+Installed-Size: 123096
+Depends: libc6 (>= 2.35), fontconfig-config, libegl1, libexpat1, libfreetype6, libgcc-s1, libgl1, libstdc++6, libx11-6, libxau6, libxcb-render0, libxcb-shm0, libxcb1, libxcursor1, libxdamage1, libxdmcp6, libxext6, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, zlib1g
+Recommends: fonts-noto-cjk, ibus-hangul, shared-mime-info, xdg-utils
+Breaks: mote (<< 1.0.6-2)
+Replaces: mote (<< 1.0.6-2)
+Filename: pool/stable/m/mori/mori_1.0.6_amd64.deb
+Size: 35329928
+MD5sum: c0a8a1171680f3de14229414a8dda230
+SHA1: fdd5b509ca38161a8f47aa0ef498f22ba37ac041
+SHA256: b1ce3368c1847f3591befabe0ecf19b548bc884b74729590845ac3fbed07fb39
+SHA512: b47ed85b15834b4e2b4024335619603ec93312bf5b21427e58f0c829074425264fe04fcf63aa311b98399cdcc808f0de1fb0267086c9c3e751f4d2e958b291f5
+Homepage: https://motemd.com
+Description: Native live Markdown editor
+ Typora-class inline editing without a web engine. Nothing runs while idle,
+ typing uses a fraction of one core, and the file is saved exactly as typed.
+ Ships its own GTK 4 / libadwaita under /opt/mori, so it behaves the same on
+ every distribution (Ubuntu 22.04+, Debian 12+).
+
 Package: mote
 Architecture: all
 Version: 1.0.2-2
@@ -165,6 +189,25 @@ MD5sum: f8c81727359bbfd26490e43bbefc6068
 SHA1: 25b828490f67892ca51546900496904962f02f7f
 SHA256: ccecd489d9138e68bb050fdfbe9a8da711cbd944d0a086cc3f4d443ba55dbd9b
 SHA512: 540822231e2546f84e12c313c504503bd209b66a296bcb4342b7a7eebf2d7cc62cee872a5a75be25565ba3392a19c19123e73fe1a3307c172ed57a386b61c2c8
+Homepage: https://motemd.com
+Description: transitional package — mote is now mori
+ mote was renamed mori. This empty package pulls in  and can be removed
+ once it is installed.
+
+Package: mote
+Architecture: all
+Version: 1.0.6-2
+Priority: optional
+Section: oldlibs
+Maintainer: mori <support@motemd.com>
+Installed-Size: 0
+Depends: mori (>= 1.0.6)
+Filename: pool/stable/m/mori/mote_1.0.6-2_all.deb
+Size: 804
+MD5sum: eabf89ad7be636fe538e1063000c150b
+SHA1: 8916a6576344f8742187c48b9513b505040da5d6
+SHA256: fdec922d9330e629f5c9725bb795163316c61e1dc48b59812878568cd383c449
+SHA512: 496e2b6db9d2d25130289c93dbb39478e04aad31a3c7855c0c2750def335e518a16ac1a6e893b609d5cd89334425530394f9e04d3329262ed00a749874de1915
 Homepage: https://motemd.com
 Description: transitional package — mote is now mori
  mote was renamed mori. This empty package pulls in  and can be removed
